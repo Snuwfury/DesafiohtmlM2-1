@@ -1,0 +1,59 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/*VARIABLES*/
+:root{
+    --font-family-body: 'Poppins', sans-serif;
+    --color-blue: #0a2ff1;
+}
+
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+body{
+    font-family: var(--font-family-body);
+    padding-right: 30vw;
+    margin-left: 50px;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+
+/*CLASES*/
+.bold{
+    font-weight: 700;
+}
+.medium{
+    font-weight: 500;
+}
+.azul{
+    color: var(--color-blue);
+}
+
+/*ID'S*/
+/*ESTRATEGIA VISUAL PARA*/
+#tit1{
+    font-size: 78px;
+}
+/*SOCIAL MEDIA*/
+#tit2{
+    font-size: 78px;
+    background-color: #3FFFF3;
+}
+/*PARRAFO*/
+#txt{
+    font-size: 30px;
+    width: 55vw;
+}
+/*IMAGEN*/
+#imgcel{
+    width: 500px;
+    height: 700px;
+    background-image: url("/fondo.JPG");
+    background-position-y: bottom;
+    background-size: 20%;
+    border: 0;
+}
